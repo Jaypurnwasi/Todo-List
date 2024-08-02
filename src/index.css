@@ -32,8 +32,12 @@ code {
   background-color: white;
   color: rgb(17, 135, 17);
   transform: scale(1.2);
-  border: 1px dashed green;
 
+}
+.unchecked{
+
+  color: rgb(75, 75, 75);
+  
 }
 
 
@@ -113,12 +117,7 @@ code {
   gap: 1rem;
   font-size: 1.7rem;
 }
-.unchecked{
 
-  border: 1px dashed grey;
-  color: rgb(75, 75, 75);
-  
-}
 .delete-icon{
   color: rgb(202, 87, 66);
 }

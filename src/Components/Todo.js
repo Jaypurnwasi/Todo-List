@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiDeleteBin5Line } from "react-icons/ri";
-import { IoCheckmarkDone } from "react-icons/io5";
+import { FaCheckCircle } from "react-icons/fa";
 
 const Todo = (props) => {
     const todo = props.todo
@@ -13,7 +13,7 @@ const Todo = (props) => {
             {todo.task}
         </div>
         <div className='todo-icons'>
-            <IoCheckmarkDone className={`check-icon ${todo.completed? 'checked':'unchecked'}`} onClick={()=>{
+            <FaCheckCircle className={`check-icon ${todo.completed? 'checked':'unchecked'}`} onClick={()=>{
               markComplete(todo.id)
             }} title='Mark as Complete' />
             <RiDeleteBin5Line onClick={()=>{

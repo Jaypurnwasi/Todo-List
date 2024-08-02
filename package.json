@@ -1,9 +1,9 @@
 
-{
+{  
+  "homepage": "https://jaypurnwasi.github.io/Todo-List",
   "name": "todoproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jaypurnwasi.github.io/Todo-List",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
